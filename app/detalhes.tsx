@@ -9,7 +9,7 @@ import { estilos } from "../styles/detalhes";
 // Tela de detalhes: recebe o id do filme pela navegação (Expo Router).
 export default function Detalhes() {
   const router = useRouter();
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const {  } = iduseLocalSearchParams<{ id: string }>();
   const filme = filmes.find((f) => f.id === id);
 
   if (!filme) {
